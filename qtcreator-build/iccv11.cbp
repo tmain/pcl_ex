@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="iccv11" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\;CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\;CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Platform\;CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Compiler\;CMake Files\..\..\..\..\..\..\usr\share\pcl-1.3\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.4\;CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.4\CMake\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="build_object_model">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/build_object_model" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; build_object_model" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="build_object_model/fast">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/build_object_model" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; build_object_model/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="capture_tool">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/capture_tool" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; capture_tool" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="capture_tool/fast">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/capture_tool" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; capture_tool/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="correspondence_viewer">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/correspondence_viewer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; correspondence_viewer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="correspondence_viewer/fast">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/correspondence_viewer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; correspondence_viewer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_feature_estimation">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/test_feature_estimation" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; test_feature_estimation" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_feature_estimation/fast">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/test_feature_estimation" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; test_feature_estimation/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_filters">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/test_filters" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; test_filters" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_filters/fast">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/test_filters" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; test_filters/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_object_recognition">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/test_object_recognition" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; test_object_recognition" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_object_recognition/fast">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/test_object_recognition" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; test_object_recognition/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_registration">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/test_registration" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; test_registration" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_registration/fast">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/test_registration" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; test_registration/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_segmentation">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/test_segmentation" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; test_segmentation" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_segmentation/fast">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/test_segmentation" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; test_segmentation/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tutorial">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/tutorial" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; tutorial" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tutorial/fast">
+         <Option output="/home/onur/Kinect/PCL/project2/qtcreator-build/tutorial" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/onur/Kinect/PCL/project2/qtcreator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/vtk-5.4" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/openmpi/include" />
+            <Add directory="/usr/lib/openmpi/include/openmpi" />
+            <Add directory="/usr/include/tcl8.5" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/lib/jvm/default-java/include" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/freetype2" />
+            <Add directory="/usr/include/pcl-1.3" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; tutorial/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/onur/Kinect/PCL/project2/qtcreator-build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/src/build_object_model.cpp">
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/src/capture_tool.cpp">
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/src/correspondence_viewer.cpp">
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/src/openni_capture.cpp">
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/src/test_feature_estimation.cpp">
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/src/test_filters.cpp">
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/src/test_object_recognition.cpp">
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/src/test_registration.cpp">
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/src/test_segmentation.cpp">
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/src/tutorial.cpp">
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/CMakeGenericSystem.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/CMakeFindCodeBlocks.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/CMakeCInformation.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/CMakeCXXInformation.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/FindPackageMessage.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/CMakeParseArguments.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/FindBoost.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/FindVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/CMakeImportBuildSettings.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/FindVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/FindVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/Platform/Linux.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/Platform/UnixPaths.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/Platform/Linux-GNU-C.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/Platform/Linux-GNU.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/Platform/Linux-GNU-CXX.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/Platform/Linux-GNU.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/Compiler/GNU-C.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/Compiler/GNU.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/Compiler/GNU-CXX.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/cmake-2.8/Modules/Compiler/GNU.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/pcl-1.3/PCLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\pcl-1.3\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/share/pcl-1.3/PCLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\pcl-1.3\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/lib/vtk-5.4/VTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.4\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/lib/vtk-5.4/VTKLibraryDepends.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.4\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/lib/vtk-5.4/UseVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.4\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/lib/vtk-5.4/VTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.4\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/lib/vtk-5.4/VTKLibraryDepends.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.4\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/lib/vtk-5.4/UseVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.4\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/lib/vtk-5.4/VTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.4\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/lib/vtk-5.4/VTKLibraryDepends.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.4\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/lib/vtk-5.4/UseVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.4\" />
+      </Unit>
+      <Unit filename="/home/onur/Kinect/PCL/project2/ICCV2011-tutorial-code/../../../../../../usr/lib/vtk-5.4/CMake/vtkMakeInstantiator.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.4\CMake\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,9 @@
+/home/onur/Kinect/PCL/project2/qtcreator-build/CMakeFiles/build_object_model.dir
+/home/onur/Kinect/PCL/project2/qtcreator-build/CMakeFiles/capture_tool.dir
+/home/onur/Kinect/PCL/project2/qtcreator-build/CMakeFiles/correspondence_viewer.dir
+/home/onur/Kinect/PCL/project2/qtcreator-build/CMakeFiles/test_feature_estimation.dir
+/home/onur/Kinect/PCL/project2/qtcreator-build/CMakeFiles/test_filters.dir
+/home/onur/Kinect/PCL/project2/qtcreator-build/CMakeFiles/test_object_recognition.dir
+/home/onur/Kinect/PCL/project2/qtcreator-build/CMakeFiles/test_registration.dir
+/home/onur/Kinect/PCL/project2/qtcreator-build/CMakeFiles/test_segmentation.dir
+/home/onur/Kinect/PCL/project2/qtcreator-build/CMakeFiles/tutorial.dir
